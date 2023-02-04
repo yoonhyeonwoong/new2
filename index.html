@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="grid">
+        <div class="printDate">
+            <h2 class="date" style="font-size: 60px;"></h2>
+            <h2 class="time" style="font-size: 100px; line-height: 425px; text-align: right; margin-right: 280px;"></h2>
+            <h2 class="musicName"></h4>
+               <audio class="audio" autoplay controls style="color: red;"></audio>
+        </div> 
+        
+        <div class="oldpaper" >
+            <form id="login-form" style="text-align: center;">
+                Please Write your name:<input type="text" placeholder="Write your name" required style="border: none; background: transparent; text-align: center;">
+            </form>
+            <h2 style="margin-bottom: 0px; text-align: center; font-size: 50px;"></h2>
+            <h3 style="margin-top: 1px; text-align: center; font-size: 20px;"></h3>
+            <form id="todo-form">
+                <strong style="font-size: 25px;">Write here:</strong><input type="text" placeholder="please write and enter" required style="border: none; background: transparent;">
+            </form>
+            <ul id="todo-list" style="font-size: 30px;">
+                
+            </ul>
+           
+            
+        </div>
+    </div>
+   <div class="printQuote" style="font-family: 'ChineseRocksRg-Regular';">
+    <div style="text-align: center; color: white;"></div>
+    <div style="text-align: center; color: white;"></div>
+   </div>
+   <script src="login.js"></script>
+   <script src="clock.js"></script>
+   <script src="quote.js"></script>
+   <script src="todo.js"></script>
+    
+    
+</body>
+</html>

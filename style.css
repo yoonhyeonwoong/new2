@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'ChineseRocksRg-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ChineseRocksRg-Regular'), url('chinese rocks rg.woff') format('woff');
+    }
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 550px;
+}
+#printQuote{
+    
+    width: 800px; height: 200px;
+}
+body{
+    background-image: url('wallpaper.png');
+    background-size: cover;
+}
+.oldpaper{
+    max-width: 100%;
+    background-image: url('oldpaper.jpg');
+    height: 700px;
+    word-break: break-all;
+    display: block;
+    font-family: 'ChineseRocksRg-Regular';
+    
+}
+.printDate{
+    height: 850px;
+    font-family: 'ChineseRocksRg-Regular';
+}
+.hidden{
+    display: none;
+}
