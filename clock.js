@@ -9,8 +9,8 @@ const audio=document.querySelector(".printDate audio");
 function Day(){
     const today=new Date();
     const fullYear=String(today.getFullYear()).padStart(4,"0");
-    const month=String(today.getMonth()).padStart(2,"0");
-    const day=String(today.getDay()).padStart(2,"0");
+    const month=String(today.getMonth()+1).padStart(2,"0");
+    const day=String(today.getDate()).padStart(2,"0");
     date.innerText=`${fullYear}-${month}-${day}`;
     const Hours=String(today.getHours()).padStart(2,"0");
     const minutes=String(today.getMinutes()).padStart(2,"0");
